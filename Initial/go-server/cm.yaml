@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm
+data:
+  PORT: "14000"
+  db-port: "27017"
+
